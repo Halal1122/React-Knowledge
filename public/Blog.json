@@ -1,0 +1,53 @@
+[
+    {
+      "id": "1",
+      "cover": "https://i.ibb.co/r0cX38b/top-view-office-desk-with-phone-mock-up.jpg",
+      "title": "The Secret Garden",
+      "author_img": "https://i.ibb.co/N3LpGC7/boy1.png",
+      "author": "Mr. Raju",
+      "posted_date": "2023-09-13",
+      "reading_time": "2 min read",
+      "hashtags": ["fiction", "nature", "classics"]
+    },
+    {
+      "id": "2",
+      "cover": "https://i.ibb.co/72ZLTw0/minimalistic-black-background-with-laptop-notepad-office-plants-top-view.jpg",
+      "title": "Mystery at Moonlight Manor",
+      "author_img": "https://i.ibb.co/02kjWy8/boy2.jpg",
+      "author": "Mrs. Setara",
+      "posted_date": "2023-09-12",
+      "reading_time": "5 min read",
+      "hashtags": ["mystery", "thriller", "suspense"]
+    },
+    {
+      "id": "3",
+      "cover": "https://i.ibb.co/YDgYx9T/high-angle-desktop-with-laptop-copy-space.jpg",
+      "title": "Science of the Future",
+      "author_img": "https://i.ibb.co/dt3jKMr/girl1.jpg",
+      "author": "Mina Mostofa",
+      "posted_date": "2023-09-11",
+      "reading_time": "9 min read",
+      "hashtags": ["science", "technology", "future"]
+    },
+    {
+      "id": "4",
+      "cover": "https://i.ibb.co/sHcPLD0/clint-patterson-d-YEu-FB8-KQJk-unsplash.jpg",
+      "title": "Cooking Adventures",
+      "author_img": "https://i.ibb.co/N3LpGC7/boy1.png",
+      "author": "Yeasir Khan",
+      "posted_date": "2023-09-10",
+      "reading_time": "4 min read",
+      "hashtags": ["cooking", "food", "recipes"]
+    },
+    {
+      "id": "5",
+      "cover": "https://i.ibb.co/qpMsJfT/emile-perron-xr-VDYZRGdw4-unsplash.jpg",
+      "title": "The Time Traveler's Dilemma",
+      "author_img": "https://i.ibb.co/02kjWy8/boy2.jpg",
+      "author": "Fahid",
+      "posted_date": "2023-09-09",
+      "reading_time": "10 min read",
+      "hashtags": ["time_travel", "science_fiction", "adventure"]
+    }
+  ]
+  
