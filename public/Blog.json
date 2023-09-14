@@ -6,8 +6,9 @@
       "author_img": "https://i.ibb.co/N3LpGC7/boy1.png",
       "author": "Mr. Raju",
       "posted_date": "2023-09-13",
-      "reading_time": "2 min read",
-      "hashtags": ["fiction", "nature", "classics"]
+      "reading_time": 2,
+      "hashtags": ["fiction", "nature", "classics"],
+      "Mark": "Mark as read"
     },
     {
       "id": "2",
@@ -16,8 +17,9 @@
       "author_img": "https://i.ibb.co/02kjWy8/boy2.jpg",
       "author": "Mrs. Setara",
       "posted_date": "2023-09-12",
-      "reading_time": "5 min read",
-      "hashtags": ["mystery", "thriller", "suspense"]
+      "reading_time": 5,
+      "hashtags": ["mystery", "thriller", "suspense"],
+      "Mark": "Mark as read"
     },
     {
       "id": "3",
@@ -26,8 +28,9 @@
       "author_img": "https://i.ibb.co/dt3jKMr/girl1.jpg",
       "author": "Mina Mostofa",
       "posted_date": "2023-09-11",
-      "reading_time": "9 min read",
-      "hashtags": ["science", "technology", "future"]
+      "reading_time": 9,
+      "hashtags": ["science", "technology", "future"],
+      "Mark": "Mark as read"
     },
     {
       "id": "4",
@@ -36,7 +39,7 @@
       "author_img": "https://i.ibb.co/N3LpGC7/boy1.png",
       "author": "Yeasir Khan",
       "posted_date": "2023-09-10",
-      "reading_time": "4 min read",
+      "reading_time": 4,
       "hashtags": ["cooking", "food", "recipes"]
     },
     {
@@ -46,7 +49,7 @@
       "author_img": "https://i.ibb.co/02kjWy8/boy2.jpg",
       "author": "Fahid",
       "posted_date": "2023-09-09",
-      "reading_time": "10 min read",
+      "reading_time": 10,
       "hashtags": ["time_travel", "science_fiction", "adventure"]
     }
   ]

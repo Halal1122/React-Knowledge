@@ -5,10 +5,18 @@ import Bookmarks from './assets/Components/Bookmarks/Bookmarks'
 import Header from './assets/Components/Header/Header'
 
 function App() {
-  const [bookMark, setBookMark] = useState([])
+  const [bookMarks, setBookMark] = useState([])
+  const [markAsRead, setMarkAsRead]= useState(0)
   const handleBookMark = blog =>{
-    console.log('add bookmark soon')
+    const newBookMark = ([...bookMarks, blog])
+    setBookMark(newBookMark)
   }
+  
+  const setMarkAsReadBtn = time =>{
+    const sumTime = markAsRead + time;
+    setMarkAsRead(sumTime);
+  } 
+
   return (
     <>
     
@@ -16,12 +24,11 @@ function App() {
    <Header></Header>
    </div>
       <div className='lg: max-w-screen-xl md: flex mx-auto'>
-      <Blogs handleBookMark={handleBookMark}></Blogs>
-      <Bookmarks></Bookmarks>
+      <Blogs handleBookMark={handleBookMark} setMarkAsReadBtn={setMarkAsReadBtn}></Blogs>
+      <Bookmarks bookMarks={bookMarks} markAsRead={markAsRead} ></Bookmarks>
       </div>
 
     </>
   )
 }
-
 export default App
