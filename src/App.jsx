@@ -12,7 +12,10 @@ function App() {
     setBookMark(newBookMark)
   }
   
-  const setMarkAsReadBtn = time =>{
+  const setMarkAsReadBtn = (id,time) =>{
+    const removeSetItem =  bookMarks.filter(bookMarks=> bookMarks.id !== id)
+      setBookMark(removeSetItem);
+    
     const sumTime = markAsRead + time;
     setMarkAsRead(sumTime);
   } 
